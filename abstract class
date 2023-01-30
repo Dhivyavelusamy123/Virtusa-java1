@@ -1,0 +1,24 @@
+abstract class hotel{
+    void water(){
+        System.out.println("drinking");
+    }
+     abstract void juice();
+}
+ class paratto extends hotel{
+     void hotwater(){
+         System.out.println("temperature");
+     }
+     void juice(){
+         System.out.println("apple juice");
+     }
+     void sweets(){
+         System.out.println("gulan jam");
+     }
+     
+ }
+public class Main{
+    public static void main(String args[]){
+        paratto s1=new paratto();
+        s1.sweets();
+    }
+}
