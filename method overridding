@@ -1,0 +1,23 @@
+class dhivya{
+    void dance(){
+        System.out.println("i like dance");
+    }
+}
+    class charu extends dhivya{
+        void dance(){
+            System.out.println("performing dance");
+        }
+    }
+
+public class Main
+{
+    public static void main(String args[]){
+        dhivya s1,s2;
+        s1=new dhivya();
+        s2=new charu();
+        s1.dance();
+        s2.dance();
+    }
+}
+
+method overriding code java
