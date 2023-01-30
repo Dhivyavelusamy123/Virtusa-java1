@@ -1,0 +1,40 @@
+/*class Bank{
+    int application(int accountnumber,int mobilenumber){
+        return mobilenumber;
+    }
+    int application(int accountnumber,int mobilenumber,int mobilenumber1){
+        return accountnumber;
+    }
+}
+public class Main{
+    public static void main(String args[]){
+        Bank l1=new Bank();
+        System.out.println(l1.application(3222,91504));
+        System.out.println(l1.application(32222,915042,45121));
+    }
+}*/
+
+class dhivya{
+    void dance(){
+        System.out.println("i like dance");
+    }
+}
+    class charu extends dhivya{
+        void dance(){
+            System.out.println("performing dance");
+        }
+    }
+
+public class Main
+{
+    public static void main(String args[]){
+        dhivya s1,s2;
+        s1=new dhivya();
+        s2=new charu();
+        s1.dance();
+        s2.dance();
+    }
+}
+
+method overriding code java
+
