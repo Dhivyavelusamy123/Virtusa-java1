@@ -1,0 +1,58 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[] ){
+        ArrayList a=new ArrayList();
+        a.add("dhivya");
+        {
+            System.out.println(a);
+        }
+    }
+}
+
+
+// isempty()
+import java.util.*;
+public class Main{
+    public static void main(String args[] ){
+        ArrayList a=new ArrayList();
+        
+        
+        {
+            System.out.println(a.isEmpty());
+        }
+    }
+}
+
+// clear()
+import java.util.*;
+public class Main{
+    public static void main(String args[] ){
+        ArrayList a=new ArrayList();
+        a.add(4);
+        
+        a.clear();
+        
+        {
+            System.out.println(a);
+        }
+    }
+}
+
+//clone
+import java.util.*;
+public class Main{
+    public static void main(String args[] ){
+        ArrayList a=new ArrayList();
+        a.add(4);
+        a.add("dhivya");
+        a.add(true);
+        
+       // a.clone();
+        
+        {
+            System.out.println(a.clone());
+        }
+    }
+}
+
+//
