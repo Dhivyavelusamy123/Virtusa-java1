@@ -1,0 +1,56 @@
+interface officerules{
+    public void dresscode();
+    public void workinghours();
+    public void manager();
+}
+interface homerules{
+    public void freetime();
+    public  void playtime();
+    public void sleep();
+
+}
+class person implements officerules,homerules{
+    public void dresscode()
+    {
+        System.out.println("formal");
+    }
+    public void workinghours()
+    {
+        System.out.println("min 8 hrs");
+    }
+    public void manager()
+    {
+        System.out.println("checking");
+    }
+    public void freetime()
+    {
+        System.out.println("watching tv");
+    }
+    public void playtime()
+    {
+        System.out.println("evening playing time");
+    }
+    public void sleep()
+    {
+        System.out.println("max 8 hrs");
+    }
+    
+    
+}
+    class Main{
+        public static void main(String[] args){
+          person a = new person();
+           a.dresscode();
+           a.workinghours();
+           a.manager();
+           a.freetime();
+           a.playtime();
+           a.sleep();
+
+        }
+        
+    
+    
+    
+    
+}
