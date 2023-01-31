@@ -1,0 +1,32 @@
+interface Smartphone{
+    public void camera();
+    public void touchpad();
+    public void chargetype();
+}
+class Buyer implements Smartphone{
+    public void camera()
+    {
+        System.out.println("picture quality");
+    }
+    public void touchpad()
+    {
+        System.out.println("styling the touchscreen");
+    }
+    public void chargetype()
+    {
+        System.out.println("250mhz");
+    }
+}
+    class Main{
+        public static void main(String[] args){
+          Buyer mobiles = new Buyer();
+           mobiles.camera();
+          mobiles.touchpad();
+         mobiles.chargetype();
+        }
+        
+    
+    
+    
+    
+}
