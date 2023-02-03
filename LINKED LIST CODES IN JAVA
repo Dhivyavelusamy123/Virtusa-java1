@@ -1,0 +1,22 @@
+1.Linked list
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        LinkedList<String>obj=new <String> LinkedList();
+        
+        obj.add("dhivya");
+        System.out.println(obj);
+    }
+}
+
+
+2. linked list
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        LinkedList<String>obj=new <String> LinkedList();
+        
+        obj.add("dhivya");
+        System.out.println(obj);
+    }
+}
